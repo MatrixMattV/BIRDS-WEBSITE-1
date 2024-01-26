@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(223, 133, 100);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content-owl {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-owl {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.main-owl h1 {
+    font-size: 3rem;
+}
+
+.main-owl p {
+    font-size: 20px;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.pic-owl {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+.owl {
+    position: absolute;
+    top: 10px;
+    left: -250px;
+    max-width: 680px;
+    border-radius: 16px;
+}
+
+.falcon-content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pic-falcon {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+.falcon {
+    position: absolute;
+    max-width: 600px;
+    border-radius: 16px;
+}
+
+.main-falcon {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.main-falcon h1 {
+    font-size: 3rem;
+}
+
+.main-falcon p {
+    font-size: 20px;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.eagle-content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-eagle {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.main-eagle h1 {
+    font-size: 3rem;
+}
+
+.main-eagle p {
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.pic-eagle {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    bottom: 15px;
+}
+
+.eagle {
+    position: absolute;
+    max-width: 750px;
+    left: -220px;
+    border-radius: 16px;
+}
+
+.hawk-content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pic-hawk {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+.hawk {
+    position: absolute;
+    max-width: 700px;
+    border-radius: 16px;
+}
+
+.main-hawk {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.main-hawk h1 {
+    font-size: 3rem;
+}
+
+.main-hawk p {
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 600px;
+}
